@@ -22,6 +22,9 @@ nav{
     width: 100px;
     cursor: pointer;
 }
+logo :hover{
+    background-color: #eff4fd;
+}
 nav ul li {
     display: inline-block;
     list-style: none;
@@ -35,4 +38,25 @@ nav ul li a{
 nav ul li a:hover{
     color: rgb(57, 28, 224);
 }
+.bd {
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 15%;
+    
+}
+.bd h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 55px;
+    color: #212121;
 
+}
+span{
+    color: orange;
+    
+}
+.bd p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #555;
+    line-height: 22px;
+}
